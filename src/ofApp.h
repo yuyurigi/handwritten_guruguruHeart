@@ -24,7 +24,6 @@ public:
     void gotMessage(ofMessage msg);
     ofColor readBackground(ofImage img, float x, float y);
     void setSVG();
-    void ofDrawLineRound(float x1, float y1, float x2, float y2);
     
     ofxSVG svg;
     vector<ofPolyline> outlines;
